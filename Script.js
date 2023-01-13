@@ -1,4 +1,4 @@
-  function sendMoney() {
+function sendMoney() {
   var enterName = document.getElementById("enterName").value;
   var enterAmount = parseInt(document.getElementById("enterAmount").value);
   var enterSName = document.getElementById("enterSName").value;
@@ -25,4 +25,5 @@
     element.insertBefore(createPTag, element.firstChild);
   }
 }
+
                                                             
